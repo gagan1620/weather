@@ -6,6 +6,6 @@ if("serviceWorker" in navigator){
 
     }).catch(error=>{
         console.log("SW Registration Failed!");
-        console.log(error)
+      
     })
 }
